@@ -34,18 +34,18 @@
 }
 
 .login_email {
-  padding-right: 5px;
+  /*padding-right: 5px;*/
 }
 
 .login_password {
-  padding-right: 5px;
+  /*padding-right: 5px;*/
 }
 
 .custom_navbar {
   border: none;
   border-radius: 0;
   background-color: rgb(195, 39, 46);
-  width: 100%;
+  /*width: 100%;*/
   padding: 0;
   margin: 0;
 }
@@ -59,3 +59,26 @@
 }
 
 .btn_login {}
+
+.video_content {
+  background-color: green;
+}
+
+.sign_up_content {
+  background-color: blue;
+}
+
+.body_content {
+  margin-top: 100px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+  color: #afafaf;
+  text-align: right;
+  margin-bottom: 10px;
+}

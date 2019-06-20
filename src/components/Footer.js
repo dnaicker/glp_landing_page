@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css'
 
 class Footer extends React.Component {
   constructor(props) {
@@ -7,15 +8,9 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer class="page-footer font-small blue pt-4">
-        <div class="container-fluid text-center text-md-left">
-          <div class="row">
-          </div>
-        </div>
-        <div class="footer-copyright text-center py-3">© 2019 Copyright: ThinkLead: Global Leadership Platform
-        </div>
-      </footer>
-
+      <div class="footer">
+        © 2019 Copyright: ThinkLead: Global Leadership Platform
+      </div>
     );
   }
 }
