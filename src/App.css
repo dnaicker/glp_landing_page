@@ -34,18 +34,18 @@
 }
 
 .login_email {
-  /*padding-right: 5px;*/
+  padding-right: 5px;
 }
 
 .login_password {
-  /*padding-right: 5px;*/
+  padding-right: 5px;
 }
 
 .custom_navbar {
   border: none;
   border-radius: 0;
   background-color: rgb(195, 39, 46);
-  /*width: 100%;*/
+  width: 100%;
   padding: 0;
   margin: 0;
 }
@@ -62,6 +62,7 @@
 
 .video_content {
   background-color: green;
+  height: 100px;
 }
 
 .sign_up_content {
@@ -70,6 +71,7 @@
 
 .body_content {
   margin-top: 100px;
+
 }
 
 .footer {
