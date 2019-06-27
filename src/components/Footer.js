@@ -8,8 +8,8 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div class="footer">
-        © 2019 Copyright: ThinkLead: Global Leadership Platform
+      <div class="footer pull-right">
+        © 2019 Copyright: Global Leadership Platform
       </div>
     );
   }

@@ -11,11 +11,11 @@ class IntroContent extends React.Component {
   render() {
 
     return (
-      <div class="row body_content">
+      <div class="body_content">
         <div class="col-md-8 video_content">
           <About />
         </div>
-        <div class="col-md-4 sign_up_content">
+        <div class = "col-md-4 sign_up_content">
           <SignUp />
         </div>
       </div>
