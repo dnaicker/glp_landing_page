@@ -9,7 +9,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div class="footer pull-right">
-        © 2019 Copyright: Global Leadership Platform
+        ©Copyright: Global Leadership Platform 2019 
       </div>
     );
   }

@@ -15,7 +15,7 @@ class IntroContent extends React.Component {
         <div class="col-md-8 video_content">
           <About />
         </div>
-        <div class = "col-md-4 sign_up_content">
+        <div class="col-md-4 sign_up_content">
           <SignUp />
         </div>
       </div>

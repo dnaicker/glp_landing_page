@@ -19,7 +19,7 @@ class Navbar extends React.Component {
             </a>
             <span class="navbar-brand navbar_title">
               GLOBAL LEADERSHIP <br />
-              PLATFORM <br />
+              <span class="navbar_sub_title">PLATFORM</span> <br />
             </span>
           </div>
 

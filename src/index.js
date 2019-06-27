@@ -9,10 +9,12 @@ import WebFont from 'webfontloader';
 WebFont.load({
   google: {
     families: [
-      'PT Serif Web:300,400,700', 'serif',
-      'Titillium Web:300,400,700', 'sans-serif',
-      'IBM Plex Sans Condensed', 'sans-serif',
-      'IBM Plex Sans', 'sans-serif'
+      'PT Serif Web:300,400,700',
+      'Titillium Web:300,400,700',
+      'IBM Plex Sans Condensed',
+      'IBM Plex Sans',
+      'PT Serif',
+      'Roboto Condensed'
     ]
   }
 });
