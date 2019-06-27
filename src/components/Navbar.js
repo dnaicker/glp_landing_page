@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "../assets/icon-96x96.png";
 
 class Navbar extends React.Component {
 
@@ -8,13 +9,22 @@ class Navbar extends React.Component {
       <nav class="navbar navbar-default custom_navbar">
         <div class="container-fluid">
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
+            <button class="btn navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" >
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <span class="navbar-brand">ThinkLead</span>
+            <a class="navbar-brand navbar_logo" rel="home" href="#" title="ThinkLead">
+              <img style={{maxWidth:'100px', marginTop: '-7 px'}} src={logo} />
+            </a>
+            <span class="navbar-brand navbar_title" style={{textAlign: 'left'}}>
+              Global <br /> 
+              Leadership <br />
+              Platform <br />
+            </span>
           </div>
+
+
 
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-right" autocomplete="off">

@@ -45,9 +45,16 @@
   border: none;
   border-radius: 0;
   background-color: rgb(195, 39, 46);
-  width: 100%;
-  padding: 0;
-  margin: 0;
+  height: 99px;
+}
+
+.navbar_logo {
+  padding-left: 25px;
+  margin-top: -14px;
+}
+
+.navbar_title {
+  padding-left: 30px;
 }
 
 .navbar-brand {
@@ -61,17 +68,18 @@
 .btn_login {}
 
 .video_content {
-  background-color: green;
-  height: 100px;
+  margin-top: 2%;
 }
 
-.sign_up_content {
-  background-color: blue;
+.sign_up_content {}
+
+.sign_up_title {
+  text-align: left;
+  margin-bottom: 40px;
 }
 
 .body_content {
   margin-top: 100px;
-
 }
 
 .footer {

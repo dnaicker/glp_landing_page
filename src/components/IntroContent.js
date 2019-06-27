@@ -1,6 +1,7 @@
 import React from 'react';
 import SignUp from './SignUp';
 import '../App.css'
+import About from './About'
 
 class IntroContent extends React.Component {
   constructor(props) {
@@ -11,10 +12,10 @@ class IntroContent extends React.Component {
 
     return (
       <div class="row body_content">
-        <div class="col-xs-8 video_content">
-
+        <div class="col-md-8 video_content">
+          <About />
         </div>
-        <div class="col-xs-4 sign_up_content">
+        <div class="col-md-4 sign_up_content">
           <SignUp />
         </div>
       </div>
