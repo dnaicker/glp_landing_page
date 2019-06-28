@@ -2,6 +2,8 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 .App {
@@ -21,7 +23,7 @@ body {
   border-radius: 0;
   background-color: rgb(195, 39, 46);
   height: 72px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+  /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;*/
 }
 
 .navbar_logo {
@@ -36,7 +38,7 @@ body {
 }
 
 .navbar_title {
-  margin-top: -10px;
+  margin-top: -3px;
   font-family: 'PT Serif', serif;
   font-size: 22px;
   line-height: 1;
@@ -46,7 +48,7 @@ body {
 
 .navbar_sub_title {
   font-family: 'Roboto Condensed', serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar-brand {
@@ -56,35 +58,33 @@ body {
 .input_field {
   box-shadow: none !important;
   border: none;
-  background-color: rgb(195, 39, 46);
+  color: rgb(195, 39, 46);
+  background-color: #fff;
   border-radius: 0 !important;
-  border-top: 0 !important;
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 1px solid #fff !important;
+  border: 1px solid #fff !important;
 }
 
 .input_field::-webkit-input-placeholder {
   /* Edge */
-  color: #fff;
+  color: #000;
 }
 
 .input_field:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #fff;
+  color: #000;
 }
 
 .input_field::placeholder {
-  color: #fff;
+  color: #000;
 }
 
 .input_field:focus {
-  color: #fff;
-  border-top: 0 !important;
-  border-left: 0 !important;
-  border-right: 0 !important;
-  border-bottom: 1px solid #fff !important;
-  background-color: rgb(195, 39, 46) !important;
+  box-shadow: none !important;
+  border: none;
+  color: #000;
+  background-color: #fff;
+  border-radius: 0 !important;
+  border: 1px solid #fff !important;
 }
 
 .btn_login {
@@ -105,23 +105,31 @@ body {
   margin-top: 2%;
 }
 
-.sign_up_content {}
+.sign_up_content {
+  /*background-color: #606060;*/
+}
 
 .sign_up_title {
   text-align: left;
   margin-bottom: 25px;
   line-height: 1;
   font-family: 'PT Serif', serif;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  letter-spacing: 0.001em;
+  color: #000;
+  /*text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
 }
 
 .body_content {
-  margin-top: 10px;
+  margin-top: -5px;
+}
+
+.signupform {
+  color: #ffffff;
+  background-color: #606060;
+  height: 450px;
 }
 
 .footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -129,12 +137,13 @@ body {
   color: #606060;
   text-align: right;
   height: 30px;
-  padding-right: 5px;
-  padding-top: 15px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
 .login_input {
   border-color: #606060 !important;
+  border-radius: 0px;
 }
 
 .login_input::-webkit-input-placeholder {

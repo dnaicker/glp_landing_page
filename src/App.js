@@ -8,8 +8,7 @@
    return (
      <div className="App">
       <Navbar />
-      <IntroContent />      
-      <Footer />
+      <IntroContent /> 
     </div>
    );
  }
